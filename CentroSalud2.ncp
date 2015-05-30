@@ -127,7 +127,7 @@
       <Entity type="Class">
         <Name>Diagnostico</Name>
         <Access>Public</Access>
-        <Location left="1066" top="900" />
+        <Location left="796" top="936" />
         <Size width="162" height="77" />
         <Collapsed>True</Collapsed>
         <Modifier>None</Modifier>
@@ -135,7 +135,7 @@
       <Entity type="Class">
         <Name>Tratamiento</Name>
         <Access>Public</Access>
-        <Location left="1300" top="900" />
+        <Location left="1030" top="936" />
         <Size width="162" height="77" />
         <Collapsed>True</Collapsed>
         <Modifier>None</Modifier>
@@ -143,7 +143,7 @@
       <Entity type="Class">
         <Name>Medicamento</Name>
         <Access>Public</Access>
-        <Location left="1300" top="1045" />
+        <Location left="1030" top="1081" />
         <Size width="162" height="77" />
         <Collapsed>True</Collapsed>
         <Modifier>None</Modifier>
@@ -151,7 +151,7 @@
       <Entity type="Class">
         <Name>SOAPEnfermeria</Name>
         <Access>Public</Access>
-        <Location left="1119" top="647" />
+        <Location left="1152" top="634" />
         <Size width="162" height="77" />
         <Collapsed>True</Collapsed>
         <Modifier>None</Modifier>
@@ -215,7 +215,7 @@
       <Entity type="Class">
         <Name>Enfermedad</Name>
         <Access>Public</Access>
-        <Location left="2127" top="895" />
+        <Location left="1977" top="744" />
         <Size width="162" height="77" />
         <Collapsed>True</Collapsed>
         <Modifier>None</Modifier>
@@ -343,6 +343,10 @@
         </Label>
         <StartOrientation>Vertical</StartOrientation>
         <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1121</X>
+          <Y>798</Y>
+        </BendPoint>
         <Direction>Unidirectional</Direction>
         <AssociationType>Composition</AssociationType>
       </Relationship>
@@ -360,8 +364,8 @@
         <StartOrientation>Vertical</StartOrientation>
         <EndOrientation>Vertical</EndOrientation>
         <BendPoint relativeToStartShape="True">
-          <X>1401</X>
-          <Y>984</Y>
+          <X>1131</X>
+          <Y>1020</Y>
         </BendPoint>
         <Direction>Unidirectional</Direction>
         <AssociationType>Composition</AssociationType>
@@ -695,6 +699,38 @@
         <EndOrientation>Horizontal</EndOrientation>
         <Direction>Unidirectional</Direction>
         <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="13" second="20">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1216</X>
+          <Y>883</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>1803</X>
+          <Y>1006</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Composition</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="18" second="19">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1278</X>
+          <Y>755</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>1581</X>
+          <Y>973</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Composition</AssociationType>
       </Relationship>
     </Relationships>
   </ProjectItem>
