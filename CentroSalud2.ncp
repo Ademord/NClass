@@ -28,7 +28,7 @@
       <Entity type="Class">
         <Name>Responsable</Name>
         <Access>Public</Access>
-        <Location left="1227" top="806" />
+        <Location left="1122" top="1042" />
         <Size width="162" height="77" />
         <Collapsed>True</Collapsed>
         <Modifier>None</Modifier>
@@ -36,15 +36,23 @@
       <Entity type="Class">
         <Name>Persona</Name>
         <Access>Public</Access>
-        <Location left="1364" top="941" />
-        <Size width="162" height="77" />
-        <Collapsed>True</Collapsed>
+        <Location left="1392" top="934" />
+        <Size width="162" height="213" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">String Nombres</Member>
+        <Member type="Field">String Apellidos</Member>
+        <Member type="Field">String Direccion</Member>
+        <Member type="Field">int Telefono</Member>
+        <Member type="Field">Date FechaNac</Member>
+        <Member type="Field">char Sexo</Member>
+        <Member type="Field">String Ocupacion</Member>
+        <Member type="Field">String EstadoCivil</Member>
         <Modifier>None</Modifier>
       </Entity>
       <Entity type="Class">
         <Name>AntPatologicos</Name>
         <Access>Public</Access>
-        <Location left="1743" top="525" />
+        <Location left="1883" top="383" />
         <Size width="162" height="77" />
         <Collapsed>True</Collapsed>
         <Modifier>None</Modifier>
@@ -52,7 +60,7 @@
       <Entity type="Class">
         <Name>MedyEnfCronicas</Name>
         <Access>Public</Access>
-        <Location left="1743" top="599" />
+        <Location left="1883" top="457" />
         <Size width="162" height="77" />
         <Collapsed>True</Collapsed>
         <Modifier>None</Modifier>
@@ -60,7 +68,7 @@
       <Entity type="Class">
         <Name>AntGinecoabstetricos</Name>
         <Access>Public</Access>
-        <Location left="1743" top="694" />
+        <Location left="1883" top="552" />
         <Size width="162" height="77" />
         <Collapsed>True</Collapsed>
         <Modifier>None</Modifier>
@@ -68,7 +76,7 @@
       <Entity type="Class">
         <Name>FactRSociales</Name>
         <Access>Public</Access>
-        <Location left="1743" top="785" />
+        <Location left="1883" top="643" />
         <Size width="162" height="77" />
         <Collapsed>True</Collapsed>
         <Modifier>None</Modifier>
@@ -76,7 +84,7 @@
       <Entity type="Class">
         <Name>FactR</Name>
         <Access>Public</Access>
-        <Location left="1743" top="868" />
+        <Location left="1883" top="726" />
         <Size width="162" height="77" />
         <Collapsed>True</Collapsed>
         <Modifier>None</Modifier>
@@ -84,7 +92,7 @@
       <Entity type="Class">
         <Name>AntPediatricos</Name>
         <Access>Public</Access>
-        <Location left="1743" top="435" />
+        <Location left="1883" top="293" />
         <Size width="162" height="77" />
         <Collapsed>True</Collapsed>
         <Modifier>None</Modifier>
@@ -92,7 +100,7 @@
       <Entity type="Class">
         <Name>Embarazo</Name>
         <Access>Public</Access>
-        <Location left="2013" top="694" />
+        <Location left="2153" top="552" />
         <Size width="162" height="77" />
         <Collapsed>True</Collapsed>
         <Modifier>None</Modifier>
@@ -100,7 +108,7 @@
       <Entity type="Class">
         <Name>Anticoncepcion</Name>
         <Access>Public</Access>
-        <Location left="2013" top="777" />
+        <Location left="2153" top="635" />
         <Size width="162" height="77" />
         <Collapsed>True</Collapsed>
         <Modifier>None</Modifier>
@@ -108,17 +116,19 @@
       <Entity type="Class">
         <Name>PAP</Name>
         <Access>Public</Access>
-        <Location left="2013" top="868" />
+        <Location left="2153" top="726" />
         <Size width="162" height="77" />
         <Collapsed>True</Collapsed>
         <Modifier>None</Modifier>
       </Entity>
       <Entity type="Class">
-        <Name>SOAPMedico</Name>
+        <Name>ConsultaMedica</Name>
         <Access>Public</Access>
-        <Location left="865" top="960" />
-        <Size width="162" height="77" />
-        <Collapsed>True</Collapsed>
+        <Location left="660" top="1055" />
+        <Size width="162" height="111" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">String ObsSubjetivo</Member>
+        <Member type="Field">Stirng ObsObjetivo</Member>
         <Modifier>None</Modifier>
       </Entity>
       <Entity type="Class">
@@ -132,55 +142,65 @@
       <Entity type="Class">
         <Name>Diagnostico</Name>
         <Access>Public</Access>
-        <Location left="562" top="1169" />
-        <Size width="162" height="77" />
-        <Collapsed>True</Collapsed>
+        <Location left="326" top="1234" />
+        <Size width="162" height="94" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string Descripcion</Member>
         <Modifier>None</Modifier>
       </Entity>
       <Entity type="Class">
         <Name>Tratamiento</Name>
         <Access>Public</Access>
-        <Location left="796" top="1169" />
-        <Size width="162" height="77" />
-        <Collapsed>True</Collapsed>
+        <Location left="584" top="1292" />
+        <Size width="162" height="111" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">String Descripcion</Member>
         <Modifier>None</Modifier>
       </Entity>
       <Entity type="Class">
         <Name>Medicamento</Name>
         <Access>Public</Access>
-        <Location left="796" top="1314" />
-        <Size width="162" height="77" />
-        <Collapsed>True</Collapsed>
+        <Location left="629" top="1511" />
+        <Size width="162" height="145" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string Nombre</Member>
+        <Member type="Field">String Indicaciones</Member>
+        <Member type="Field">String Contraindicaciones</Member>
+        <Member type="Field">String Composicion</Member>
         <Modifier>None</Modifier>
       </Entity>
       <Entity type="Class">
-        <Name>SOAPEnfermeria</Name>
+        <Name>ConsultaEnfermeria</Name>
         <Access>Public</Access>
-        <Location left="918" top="867" />
-        <Size width="162" height="77" />
-        <Collapsed>True</Collapsed>
+        <Location left="918" top="859" />
+        <Size width="162" height="128" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">float Temperatura</Member>
+        <Member type="Field">float Altura</Member>
+        <Member type="Field">float Presion</Member>
         <Modifier>None</Modifier>
       </Entity>
       <Entity type="Class">
         <Name>Enfermera</Name>
         <Access>Public</Access>
-        <Location left="1263" top="1128" />
-        <Size width="162" height="77" />
+        <Location left="1263" top="1205" />
+        <Size width="162" height="94" />
         <Collapsed>True</Collapsed>
         <Modifier>None</Modifier>
       </Entity>
       <Entity type="Class">
         <Name>Medico</Name>
         <Access>Public</Access>
-        <Location left="1465" top="1128" />
-        <Size width="162" height="77" />
-        <Collapsed>True</Collapsed>
+        <Location left="1465" top="1200" />
+        <Size width="162" height="94" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string Especializacion</Member>
         <Modifier>None</Modifier>
       </Entity>
       <Entity type="Class">
         <Name>Vacuna</Name>
         <Access>Public</Access>
-        <Location left="2013" top="348" />
+        <Location left="2178" top="195" />
         <Size width="162" height="77" />
         <Collapsed>True</Collapsed>
         <Modifier>None</Modifier>
@@ -188,7 +208,7 @@
       <Entity type="Class">
         <Name>Recepcionista</Name>
         <Access>Public</Access>
-        <Location left="1667" top="1133" />
+        <Location left="1667" top="1205" />
         <Size width="162" height="77" />
         <Collapsed>True</Collapsed>
         <Modifier>None</Modifier>
@@ -196,7 +216,7 @@
       <Entity type="Class">
         <Name>AntVacuna</Name>
         <Access>Public</Access>
-        <Location left="1743" top="337" />
+        <Location left="1883" top="195" />
         <Size width="162" height="77" />
         <Collapsed>True</Collapsed>
         <Modifier>None</Modifier>
@@ -204,7 +224,7 @@
       <Entity type="Class">
         <Name>TipoEmbarazo</Name>
         <Access>Public</Access>
-        <Location left="2251" top="694" />
+        <Location left="2391" top="552" />
         <Size width="162" height="77" />
         <Collapsed>True</Collapsed>
         <Modifier>None</Modifier>
@@ -212,7 +232,7 @@
       <Entity type="Class">
         <Name>MetodoAnticonceptivo</Name>
         <Access>Public</Access>
-        <Location left="2251" top="785" />
+        <Location left="2391" top="643" />
         <Size width="162" height="77" />
         <Collapsed>True</Collapsed>
         <Modifier>None</Modifier>
@@ -220,15 +240,17 @@
       <Entity type="Class">
         <Name>Enfermedad</Name>
         <Access>Public</Access>
-        <Location left="1743" top="977" />
-        <Size width="162" height="77" />
-        <Collapsed>True</Collapsed>
+        <Location left="1883" top="835" />
+        <Size width="162" height="111" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">String Nombre</Member>
+        <Member type="Field">String Descripcion</Member>
         <Modifier>None</Modifier>
       </Entity>
       <Entity type="Class">
         <Name>HistoriaClinica</Name>
         <Access>Public</Access>
-        <Location left="624" top="10" />
+        <Location left="468" top="48" />
         <Size width="162" height="77" />
         <Collapsed>True</Collapsed>
         <Modifier>None</Modifier>
@@ -245,7 +267,7 @@
       <Entity type="Class">
         <Name>AdapatadorUCPaciente</Name>
         <Access>Public</Access>
-        <Location left="1577" top="36" />
+        <Location left="1577" top="48" />
         <Size width="255" height="124" />
         <Collapsed>False</Collapsed>
         <Member type="Method">public UCPaciente PatToUCPat(p Paciente)</Member>
@@ -263,41 +285,52 @@
       <Entity type="Class">
         <Name>Paciente</Name>
         <Access>Public</Access>
-        <Location left="1428" top="806" />
-        <Size width="162" height="77" />
-        <Collapsed>True</Collapsed>
+        <Location left="1627" top="934" />
+        <Size width="162" height="162" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">String Nacionalidad</Member>
+        <Member type="Field">String IdiomaHablado</Member>
+        <Member type="Field">String IdiomaMaterno</Member>
+        <Member type="Field">string GrupoSanguineo</Member>
+        <Member type="Field">bool FactorRH</Member>
         <Modifier>None</Modifier>
       </Entity>
       <Entity type="Class">
         <Name>CTRLDTPaciente</Name>
         <Access>Public</Access>
-        <Location left="1086" top="525" />
-        <Size width="162" height="94" />
+        <Location left="1069" top="525" />
+        <Size width="162" height="111" />
         <Collapsed>False</Collapsed>
+        <Member type="Field">int ids</Member>
         <Member type="Method">public Pat[] leerBD()</Member>
         <Modifier>None</Modifier>
       </Entity>
       <Entity type="Class">
         <Name>DTPaciente</Name>
         <Access>Public</Access>
-        <Location left="918" top="334" />
-        <Size width="162" height="77" />
-        <Collapsed>True</Collapsed>
+        <Location left="468" top="471" />
+        <Size width="162" height="128" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int id_paciente</Member>
+        <Member type="Field">Paciente p</Member>
+        <Member type="Method">public void DTPaciente(Paciente p)</Member>
         <Modifier>None</Modifier>
       </Entity>
       <Entity type="Class">
         <Name>AdaptadorBDDTPaciente</Name>
         <Access>Public</Access>
-        <Location left="565" top="466" />
-        <Size width="221" height="94" />
+        <Location left="769" top="525" />
+        <Size width="221" height="128" />
         <Collapsed>False</Collapsed>
-        <Member type="Method">public string DTPatToSQL(DTPat p)</Member>
+        <Member type="Method">public string insert(DTPat p)</Member>
+        <Member type="Method">public string update(DTPat p)</Member>
+        <Member type="Method">public string delete(int id)</Member>
         <Modifier>None</Modifier>
       </Entity>
       <Entity type="Class">
         <Name>AdaptadorDTPaciente</Name>
         <Access>Public</Access>
-        <Location left="565" top="334" />
+        <Location left="769" top="334" />
         <Size width="221" height="111" />
         <Collapsed>False</Collapsed>
         <Member type="Method">public Pat DTPatToPat(DTPat p)</Member>
@@ -307,7 +340,7 @@
       <Entity type="Class">
         <Name>AdaptadorBD</Name>
         <Access>Public</Access>
-        <Location left="456" top="233" />
+        <Location left="468" top="389" />
         <Size width="162" height="77" />
         <Collapsed>True</Collapsed>
         <Modifier>None</Modifier>
@@ -315,37 +348,49 @@
       <Entity type="Class">
         <Name>BD</Name>
         <Access>Public</Access>
-        <Location left="562" top="587" />
+        <Location left="468" top="657" />
         <Size width="162" height="128" />
         <Collapsed>False</Collapsed>
-        <Member type="Method">public void insert()</Member>
-        <Member type="Method">public void update()</Member>
-        <Member type="Method">public void delete()</Member>
+        <Member type="Method">public void open()</Member>
+        <Member type="Method">public void execute()</Member>
+        <Member type="Method">public void close()</Member>
         <Modifier>None</Modifier>
       </Entity>
       <Entity type="Class">
         <Name>FormHistoriaClinica</Name>
         <Access>Public</Access>
-        <Location left="842" top="48" />
+        <Location left="769" top="48" />
         <Size width="162" height="77" />
         <Collapsed>True</Collapsed>
         <Modifier>None</Modifier>
       </Entity>
       <Entity type="Class">
-        <Name>AdapatadorVPaciente</Name>
-        <Access>Public</Access>
-        <Location left="1961" top="293" />
-        <Size width="162" height="77" />
-        <Collapsed>False</Collapsed>
-        <Modifier>None</Modifier>
-      </Entity>
-      <Entity type="Class">
         <Name>AdaptadorUCHClinica</Name>
         <Access>Public</Access>
-        <Location left="752" top="202" />
+        <Location left="769" top="214" />
         <Size width="223" height="94" />
         <Collapsed>False</Collapsed>
         <Member type="Method">public UCHC PatToUCHistoriaC(Paciente p)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>BufferBD</Name>
+        <Access>Public</Access>
+        <Location left="1292" top="525" />
+        <Size width="163" height="128" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string instructions</Member>
+        <Member type="Method">public void addInstr(DTPat p)</Member>
+        <Member type="Method">public string[] getInstructions()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Periodo</Name>
+        <Access>Public</Access>
+        <Location left="387" top="1511" />
+        <Size width="162" height="94" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int horas</Member>
         <Modifier>None</Modifier>
       </Entity>
     </Entities>
@@ -362,14 +407,14 @@
       </Relationship>
       <Relationship type="Association" first="14" second="13">
         <StartOrientation>Vertical</StartOrientation>
-        <EndOrientation>Horizontal</EndOrientation>
+        <EndOrientation>Vertical</EndOrientation>
         <BendPoint relativeToStartShape="True">
           <X>837</X>
           <Y>844</Y>
         </BendPoint>
         <BendPoint relativeToStartShape="False">
-          <X>840</X>
-          <Y>985</Y>
+          <X>696</X>
+          <Y>1030</Y>
         </BendPoint>
         <Direction>Unidirectional</Direction>
         <AssociationType>Association</AssociationType>
@@ -378,8 +423,8 @@
         <StartOrientation>Vertical</StartOrientation>
         <EndOrientation>Vertical</EndOrientation>
         <BendPoint relativeToStartShape="True">
-          <X>887</X>
-          <Y>1031</Y>
+          <X>682</X>
+          <Y>1192</Y>
         </BendPoint>
         <Direction>Unidirectional</Direction>
         <AssociationType>Composition</AssociationType>
@@ -394,15 +439,27 @@
         <StartOrientation>Vertical</StartOrientation>
         <EndOrientation>Vertical</EndOrientation>
         <BendPoint relativeToStartShape="True">
-          <X>897</X>
-          <Y>1253</Y>
+          <X>687</X>
+          <Y>1453</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>703</X>
+          <Y>1486</Y>
         </BendPoint>
         <Direction>Unidirectional</Direction>
         <AssociationType>Composition</AssociationType>
       </Relationship>
       <Relationship type="Generalization" first="2" second="3">
-        <StartOrientation>Vertical</StartOrientation>
-        <EndOrientation>Vertical</EndOrientation>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1309</X>
+          <Y>1068</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>1348</X>
+          <Y>1068</Y>
+        </BendPoint>
       </Relationship>
       <Relationship type="Generalization" first="19" second="3">
         <StartOrientation>Vertical</StartOrientation>
@@ -413,7 +470,7 @@
         <EndOrientation>Vertical</EndOrientation>
         <BendPoint relativeToStartShape="True">
           <X>1544</X>
-          <Y>1103</Y>
+          <Y>1175</Y>
         </BendPoint>
       </Relationship>
       <Relationship type="Association" first="6" second="10">
@@ -442,8 +499,8 @@
           <Y>356</Y>
         </BendPoint>
         <BendPoint relativeToStartShape="False">
-          <X>1707</X>
-          <Y>464</Y>
+          <X>1847</X>
+          <Y>322</Y>
         </BendPoint>
         <Direction>Unidirectional</Direction>
         <AssociationType>Composition</AssociationType>
@@ -456,8 +513,8 @@
           <Y>356</Y>
         </BendPoint>
         <BendPoint relativeToStartShape="False">
-          <X>1718</X>
-          <Y>548</Y>
+          <X>1858</X>
+          <Y>406</Y>
         </BendPoint>
         <Direction>Unidirectional</Direction>
         <AssociationType>Composition</AssociationType>
@@ -470,8 +527,8 @@
           <Y>357</Y>
         </BendPoint>
         <BendPoint relativeToStartShape="False">
-          <X>1694</X>
-          <Y>621</Y>
+          <X>1834</X>
+          <Y>479</Y>
         </BendPoint>
         <Direction>Unidirectional</Direction>
         <AssociationType>Composition</AssociationType>
@@ -489,6 +546,10 @@
       <Relationship type="Association" first="0" second="7">
         <StartOrientation>Horizontal</StartOrientation>
         <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1581</X>
+          <Y>358</Y>
+        </BendPoint>
         <Direction>Unidirectional</Direction>
         <AssociationType>Composition</AssociationType>
       </Relationship>
@@ -500,8 +561,8 @@
           <Y>357</Y>
         </BendPoint>
         <BendPoint relativeToStartShape="False">
-          <X>1718</X>
-          <Y>889</Y>
+          <X>1858</X>
+          <Y>747</Y>
         </BendPoint>
         <Direction>Unidirectional</Direction>
         <AssociationType>Composition</AssociationType>
@@ -514,8 +575,8 @@
           <Y>358</Y>
         </BendPoint>
         <BendPoint relativeToStartShape="False">
-          <X>1718</X>
-          <Y>357</Y>
+          <X>1858</X>
+          <Y>215</Y>
         </BendPoint>
         <Direction>Unidirectional</Direction>
         <AssociationType>Composition</AssociationType>
@@ -524,12 +585,12 @@
         <StartOrientation>Horizontal</StartOrientation>
         <EndOrientation>Horizontal</EndOrientation>
         <BendPoint relativeToStartShape="True">
-          <X>1940</X>
-          <Y>367</Y>
+          <X>2080</X>
+          <Y>225</Y>
         </BendPoint>
         <BendPoint relativeToStartShape="False">
-          <X>1988</X>
-          <Y>368</Y>
+          <X>2152</X>
+          <Y>225</Y>
         </BendPoint>
         <Direction>Unidirectional</Direction>
         <AssociationType>Composition</AssociationType>
@@ -538,8 +599,8 @@
         <StartOrientation>Horizontal</StartOrientation>
         <EndOrientation>Horizontal</EndOrientation>
         <BendPoint relativeToStartShape="True">
-          <X>2472</X>
-          <Y>621</Y>
+          <X>2612</X>
+          <Y>479</Y>
         </BendPoint>
         <Direction>Unidirectional</Direction>
         <AssociationType>Composition</AssociationType>
@@ -549,7 +610,7 @@
         <EndOrientation>Vertical</EndOrientation>
         <BendPoint relativeToStartShape="True">
           <X>1742</X>
-          <Y>1104</Y>
+          <Y>1176</Y>
         </BendPoint>
       </Relationship>
       <Relationship type="Association" first="10" second="24">
@@ -588,8 +649,8 @@
           <Y>763</Y>
         </BendPoint>
         <BendPoint relativeToStartShape="False">
-          <X>1304</X>
-          <Y>768</Y>
+          <X>1211</X>
+          <Y>869</Y>
         </BendPoint>
         <Direction>Unidirectional</Direction>
         <AssociationType>Composition</AssociationType>
@@ -601,8 +662,16 @@
         <AssociationType>Composition</AssociationType>
       </Relationship>
       <Relationship type="Generalization" first="31" second="3">
-        <StartOrientation>Vertical</StartOrientation>
-        <EndOrientation>Vertical</EndOrientation>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1602</X>
+          <Y>1016</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>1579</X>
+          <Y>1016</Y>
+        </BendPoint>
       </Relationship>
       <Relationship type="Association" first="0" second="31">
         <StartOrientation>Vertical</StartOrientation>
@@ -612,31 +681,11 @@
           <Y>745</Y>
         </BendPoint>
         <BendPoint relativeToStartShape="False">
-          <X>1530</X>
-          <Y>771</Y>
+          <X>1729</X>
+          <Y>899</Y>
         </BendPoint>
         <Direction>Unidirectional</Direction>
         <AssociationType>Composition</AssociationType>
-      </Relationship>
-      <Relationship type="Association" first="0" second="32">
-        <StartOrientation>Vertical</StartOrientation>
-        <EndOrientation>Vertical</EndOrientation>
-        <Direction>Unidirectional</Direction>
-        <AssociationType>Association</AssociationType>
-      </Relationship>
-      <Relationship type="Generalization" first="32" second="33">
-        <StartOrientation>Vertical</StartOrientation>
-        <EndOrientation>Vertical</EndOrientation>
-        <BendPoint relativeToStartShape="True">
-          <X>1140</X>
-          <Y>497</Y>
-        </BendPoint>
-      </Relationship>
-      <Relationship type="Association" first="32" second="35">
-        <StartOrientation>Horizontal</StartOrientation>
-        <EndOrientation>Horizontal</EndOrientation>
-        <Direction>Unidirectional</Direction>
-        <AssociationType>Association</AssociationType>
       </Relationship>
       <Relationship type="Association" first="32" second="34">
         <StartOrientation>Horizontal</StartOrientation>
@@ -646,10 +695,10 @@
       </Relationship>
       <Relationship type="Generalization" first="34" second="36">
         <StartOrientation>Horizontal</StartOrientation>
-        <EndOrientation>Vertical</EndOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
         <BendPoint relativeToStartShape="False">
-          <X>490</X>
-          <Y>308</Y>
+          <X>655</X>
+          <Y>415</Y>
         </BendPoint>
       </Relationship>
       <Relationship type="Association" first="32" second="37">
@@ -662,12 +711,12 @@
         <StartOrientation>Vertical</StartOrientation>
         <EndOrientation>Vertical</EndOrientation>
         <BendPoint relativeToStartShape="True">
-          <X>982</X>
-          <Y>1116</Y>
+          <X>813</X>
+          <Y>1216</Y>
         </BendPoint>
         <BendPoint relativeToStartShape="False">
           <X>1569</X>
-          <Y>1239</Y>
+          <Y>1409</Y>
         </BendPoint>
         <Direction>Unidirectional</Direction>
         <AssociationType>Composition</AssociationType>
@@ -677,11 +726,11 @@
         <EndOrientation>Vertical</EndOrientation>
         <BendPoint relativeToStartShape="True">
           <X>1044</X>
-          <Y>988</Y>
+          <Y>1112</Y>
         </BendPoint>
         <BendPoint relativeToStartShape="False">
           <X>1347</X>
-          <Y>1206</Y>
+          <Y>1283</Y>
         </BendPoint>
         <Direction>Unidirectional</Direction>
         <AssociationType>Composition</AssociationType>
@@ -701,7 +750,7 @@
         <Direction>Unidirectional</Direction>
         <AssociationType>Association</AssociationType>
       </Relationship>
-      <Relationship type="Association" first="1" second="40">
+      <Relationship type="Association" first="1" second="39">
         <Label>traducirBufferPaciente</Label>
         <StartOrientation>Vertical</StartOrientation>
         <EndOrientation>Vertical</EndOrientation>
@@ -737,7 +786,7 @@
         </BendPoint>
         <BendPoint relativeToStartShape="False">
           <X>1647</X>
-          <Y>257</Y>
+          <Y>269</Y>
         </BendPoint>
         <Direction>Unidirectional</Direction>
         <AssociationType>Association</AssociationType>
@@ -774,6 +823,58 @@
         <EndOrientation>Vertical</EndOrientation>
         <Direction>Unidirectional</Direction>
         <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="34" second="33">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>707</X>
+          <Y>624</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>655</X>
+          <Y>494</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Composition</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="0" second="35">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>1030</X>
+          <Y>472</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="0" second="32">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="32" second="40">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="16" second="41">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Composition</AssociationType>
       </Relationship>
     </Relationships>
   </ProjectItem>
